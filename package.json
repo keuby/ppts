@@ -1,0 +1,35 @@
+{
+  "name": "slidev",
+  "private": true,
+  "scripts": {
+    "dev": "slidev ./slides.md",
+    "build": "slidev build ./slides.md",
+    "export": "slidev export ./slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.33.0",
+    "@slidev/theme-default": "^0.21.2",
+    "echarts": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "playwright-chromium": "^1.15.2",
+    "postcss": "8.4.14",
+    "postcss-html": "^1.4.1",
+    "postcss-less": "^6.0.0",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.5",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended-less": "^1.0.4",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-less": "^1.0.5",
+    "typescript": "^4.7.3"
+  }
+}
